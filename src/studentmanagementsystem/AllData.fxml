@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" fx:id="AllDataTable" prefHeight="453.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentmanagementsystem.AllDataController">
+   <children>
+      <TableView fx:id="table" prefHeight="453.0" prefWidth="512.0">
+        <columns>
+          <TableColumn fx:id="roll" prefWidth="81.0" text="ROLL" />
+          <TableColumn fx:id="name" prefWidth="146.0" text="NAME" />
+            <TableColumn fx:id="email" minWidth="9.0" prefWidth="115.0" text="EMAIL" />
+            <TableColumn fx:id="cgpa" prefWidth="62.0" text="CGPA" />
+            <TableColumn fx:id="password" prefWidth="108.0" text="PASSWORD" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

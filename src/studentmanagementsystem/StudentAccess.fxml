@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentmanagementsystem.StudentAccessController">
+   <children>
+      <VBox prefHeight="72.0" prefWidth="726.0" style="-fx-background-color: #65a39e;">
+         <children>
+            <Button mnemonicParsing="false" onAction="#BackToMain" text="Back To Main Page" />
+            <TextField alignment="CENTER" prefHeight="77.0" prefWidth="746.0" style="-fx-background-color: #65a39e;" text="Student Progress Report">
+               <font>
+                  <Font name="System Bold" size="36.0" />
+               </font>
+            </TextField>
+         </children>
+      </VBox>
+      <HBox layoutY="74.0" prefHeight="529.0" prefWidth="15.0" style="-fx-background-color: #65a39e;" />
+      <HBox layoutX="712.0" prefHeight="603.0" prefWidth="15.0" style="-fx-background-color: #65a39e;" />
+      <Label layoutX="51.0" layoutY="116.0" text="NAME :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="188.0" text="ROLL   :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="256.0" text="EMAIL :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="51.0" layoutY="324.0" text="CGPA  :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="395.0" text="RANK  :">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Name" layoutX="149.0" layoutY="110.0" prefHeight="38.0" prefWidth="216.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Roll" layoutX="149.0" layoutY="184.0" prefHeight="38.0" prefWidth="216.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Email" layoutX="149.0" layoutY="252.0" prefHeight="38.0" prefWidth="216.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="cgpa" layoutX="149.0" layoutY="320.0" prefHeight="38.0" prefWidth="216.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="Rank" layoutX="149.0" layoutY="391.0" prefHeight="38.0" prefWidth="216.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
